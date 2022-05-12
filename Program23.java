@@ -1,6 +1,5 @@
-// WAJP to reverse print the given number?
 import java.util.Scanner;
-class Program23 
+class ReverseNumber
 {
 	public static void main(String[] args) 
 	{
@@ -11,8 +10,8 @@ class Program23
 		while (num>0)
 		{
 			int rem = num%10;
-				ans = ans*10+rem;
-				num /= 10;
+			ans = ans*10+rem;
+			num /= 10;
 		}
 		System.out.println(ans);
 	}
