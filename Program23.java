@@ -8,11 +8,11 @@ class ReverseNumber
 	{
 		/**
 		*called scanner object to get user value.
-		**/
+		*/
 		Scanner s = new Scanner(System.in);
 		/**
 		*The value should be integer type.
-		**/
+		*/
 		System.out.println("Enter the number to be reversed: ");
 		int num = s.nextInt();
 		int ans = 0;
@@ -22,8 +22,9 @@ class ReverseNumber
 			ans = ans*10+rem;	//stored that value in variable call ans.
 			num /= 10;		//every type update the value dividing by 10. 
 		}
-		/**@return the reverese value of given number.
-		**/
+		/**
+		*@return the reverese value of given number.
+		*/
 		System.out.println(ans);
 	}
 }
